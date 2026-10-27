@@ -3,8 +3,11 @@
 [![Foundry](https://img.shields.io/badge/Foundry-v1.8.6-blue.svg)](https://getfoundry.sh/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Solidity](https://img.shields.io/badge/Solidity-0.8.26-363636.svg)](https://soliditylang.org/)
+[![Use Cases](https://img.shields.io/badge/Use%20Cases-Documented-success.svg)](USE_CASES.md)
 
 An advanced, production-grade sandbox and engineering repository implementing fundamental Web3 & DeFi primitives from scratch, backed by comprehensive Foundry test suites including **1,000-run property-based fuzzing**, **stateful invariant testing**, **EIP-712 cryptographic signatures**, **Chainlink Automation**, and a **fully reproducible real-world DeFi hack exploit PoC**.
+
+📖 **Looking for commercial & production applications?** Read the detailed [**Real-World Production Use Cases (`USE_CASES.md`)**](USE_CASES.md).
 
 ---
 
@@ -12,6 +15,7 @@ An advanced, production-grade sandbox and engineering repository implementing fu
 
 ```
 foundry-defi-mastery/
+├── USE_CASES.md                         # Detailed real-world commercial & production use cases
 ├── src/
 │   ├── amm/
 │   │   ├── MiniPairV2.sol               # Production Uniswap v2 constant product AMM (x * y = k)
